@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:hint="Message"
+        android:background="@drawable/edit_text_shape" />
+
+    <ImageButton
+        android:id="@+id/send_Msg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/message"
+        android:background="@drawable/edit_text_shape"
+        android:src="@drawable/send" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="302dp"
+        android:layout_height="376dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/musicbanner_unscreen_unscreen" />
+
+    <ImageView
+        android:id="@+id/lang_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/emoji"
+        android:contentDescription="Images"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/chinese"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="154dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="109dp"-->
+<!--        android:background="@drawable/emoji"-->
+<!--        android:src="@drawable/chinese_emoji_removebg_preview"-->
+<!--        android:visibility="gone"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/italian"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="154dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="109dp"-->
+<!--        android:background="@drawable/emoji"-->
+<!--        android:src="@drawable/italian_emoji_removebg_preview"-->
+<!--        android:visibility="gone"/>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/germenCardV"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="155dp"-->
+<!--        app:cardCornerRadius="250dp"-->
+<!--        android:layout_marginTop="109dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:visibility="gone" >-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/german"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="154dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:src="@drawable/german_emoji_removebg_preview"-->
+<!--            />-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/canadian"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="154dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="109dp"-->
+<!--        android:background="@drawable/emoji"-->
+<!--        android:src="@drawable/canadian_emoji_removebg_preview"-->
+<!--        android:visibility="gone"/>-->
+
+</RelativeLayout>
